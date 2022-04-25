@@ -24,6 +24,8 @@ echo $test->verifyNumber('08733', 100)->message;
 echo '<br>';
 echo $test->fetchAllBanks()->message;
 echo '<br>';
+echo $test->resolveBank(214, 7412636015)->message;
+echo '<br>';
 echo $test->buyData('082', 100, 1)->message;
 echo '<br>';
 echo $test->getAllDataPlan()->message;
