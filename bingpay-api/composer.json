@@ -1,0 +1,18 @@
+{
+    "name": "devprecious/bingpay-api",
+    "description": "Consuming bingpay.ng api",
+    "autoload": {
+        "psr-4": {
+            "BingPay\\": "src/BingPay"
+        }
+    },
+    "authors": [
+        {
+            "name": "Devprecious",
+            "email": "oladelep77@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
