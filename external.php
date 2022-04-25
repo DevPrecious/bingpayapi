@@ -6,10 +6,11 @@ ini_set('display_errors', 1);
 include 'index.php';
 
 
-$test = new Test();
-echo $test->getBalance()->message;
+$test = new BingPay();
+echo $test->getBalance()->data->balance;
 echo '<br>';
 echo $test->fetchAllNetwork()->message;
+// var_dump($test->fetchAllNetwork());
 // foreach($test->fetchAllNetwork()->data as $data){
 //     echo 'Network Provider: '.$data->name;
 //     echo '<br>';

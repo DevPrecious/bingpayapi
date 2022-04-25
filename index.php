@@ -25,7 +25,7 @@ use BingPay\Trade;
 use BingPay\Utility;
 use BingPay\Verify;
 
-class Test
+class Bingpay
 {
 
 
